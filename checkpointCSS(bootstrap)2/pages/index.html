@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTAURANT</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!-- header + navbar -->
+  <header>
+    <h1>My Restaurant</h1>
+    <nav>
+      <ul>
+        <li><i class="bi bi-house-fill">Home</i></li>
+        <li><i class="bi bi-list">Menu</i></li>
+        <li><i class="bi bi-person-lines-fill">Contact</i></li>
+        <li><form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning" type="submit">Search</button>
+        </form></li>
+      </ul>
+    </nav>
+  </header> 
+  <!-- section home -->
+  <section id="home">
+      <div class="tmatem">
+        <h2>Welcome to My <span id="clr">Restaurant</span></h2>
+        <button class="btn btn-warning" type="submit">more info</button>
+      </div>
+  </section>
+  <!-- section menu -->
+  <section id="menu" >
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="row">
+        <div class="col-md-4 menu-item">
+            <img src="../src/burger.jpg" alt="Dish 1" class="img-fluid rounded">
+            <h3>Burger</h3>
+            <p>BEEF BURGER</p>
+            <p><strong>$25</strong></p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="../src/pizza.jpg" alt="Dish 2" class="img-fluid rounded">
+            <h3>Pizza</h3>
+            <p>Pizza peperoni</p>
+            <p><strong>$25</strong></p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="../src/pasta.jpg" alt="Dish 3" class="img-fluid rounded">
+            <h3>Pasta</h3>
+            <p>PASTA</p>
+            <p><strong>$20</strong></p>
+        </div>
+    </div>
+    <p></p>
+    <div class="row">
+      <div class="col-md-4 menu-item">
+          <img src="../src/fries.jpg" alt="Dish 1" class="img-fluid rounded">
+          <h3>Fries</h3>
+          <p>FRENCH FRIES</p>
+          <p><strong>$10</strong></p>
+      </div>
+      <div class="col-md-4 menu-item">
+          <img src="../src/sandwitch.jpg" alt="Dish 2" class="img-fluid rounded">
+          <h3>Sandwitch</h3>
+          <p>SANDWITCH</p>
+          <p><strong>$15</strong></p>
+      </div>
+      <div class="col-md-4 menu-item">
+          <img src="../src/lasagna.jpg" alt="Dish 3" class="img-fluid rounded">
+          <h3>lasagna</h3>
+          <p>LASAGNA</p>
+          <p><strong>$20</strong></p>
+      </div>
+  </div>
+</section>
+<!-- section contact -->
+ <section id="contact">
+ <div>
+  <form >
+    <table>
+      <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email"  name="email"></td>
+      </tr>
+      <tr>
+          <td><label for="subject">Subject:</label></td>
+          <td><input type="text"  name="subject"></td>
+      </tr>
+      <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea  name="message" rows="5" cols="30"></textarea></td>
+      </tr>
+      <tr>
+          <td colspan="2" style="text-align: center;"><input type="submit" value="Submit"></td>
+      </tr>
+  </table>
+  </form>
+ </div>
+ </section>
+ <!-- footer -->
+  <footer>
+    <p> &copy; 2024 My Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
